@@ -13,6 +13,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color
 
+
 ## Exercise 1 - Feedback form
 Using `useState` and simple types
 String, number, boolean
@@ -39,9 +40,9 @@ You want to find out what the users 3 top favourite colours is.
 Use the HTML input with type "color" to collect the users 1st, 2nd and 3rd favourite colour, in 3 seperate inputs.
 
 Initialise one `useState` with an object containing 3 keys:
-- firstColour
-- secondColour
-- thirdColour
+- first
+- second
+- third
 
 Write an onInput handler that saves the value of each individual input, to their respective key, in the stateful object.
 
